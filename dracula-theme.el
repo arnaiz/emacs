@@ -22,8 +22,8 @@
       (fg2 "#e2e2dc")
       (fg3 "#ccccc7")
       (fg4 "#b6b6b2")
-      (bg1 "#282a36")
-      (bg2 "#373844")
+      (bg1 "#000000")
+      (bg2 "#dcdcdc")
       (bg3 "#464752")
       (bg4 "#565761")
       (bg5 "#44475a")
@@ -226,8 +226,8 @@
    `(magit-section-heading        ((,class (:foreground ,keyword :weight bold))))
    `(magit-section-highlight      ((,class (:background ,bg2))))
    ;; mode-line
-   `(mode-line ((,class (:foreground nil :background ,bg3 :box ,bg3))))
-   `(mode-line-inactive ((,class (:foreground ,fg1 :background ,bg1 :box ,bg1))))
+   `(mode-line-inactive ((,class (:foreground nil :background ,bg3 :box ,bg3))))
+   `(mode-line ((,class (:foreground ,bg3 :background ,bg2 :box ,bg2))))
    ;; mu4e
    `(mu4e-cited-1-face ((,class (:foreground ,fg2))))
    `(mu4e-cited-7-face ((,class (:foreground ,fg3))))
@@ -429,3 +429,4 @@
 ;; End:
 
 ;;; dracula-theme.el ends here
+
